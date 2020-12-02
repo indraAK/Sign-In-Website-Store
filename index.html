@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <title>Sign In</title>
+</head>
+
+<body>
+
+   <section class="sign-in">
+      <div class="left">
+         <img src="./img/logo.svg" class="logo" alt="Logo">
+         <div class="content">
+            <div class="text-wrapper">
+               <h2 class="title">Log In and Learn The Report</h2>
+               <p class="description">
+                  We provide variant data that you can use it in order to get the better perfomance at sales
+               </p>
+            </div>
+            <form action="" class="form">
+               <!-- Email -->
+               <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-input" placeholder="Enter your email" id="email">
+               </div>
+               <!-- Password -->
+               <div class="form-group">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="password" class="form-input" placeholder="Enter your password" id="password">
+                  <span><a href="#" class="forgot-password">Forgot My Password</a></span>
+               </div>
+               <!-- Account Type -->
+               <div class="form-group">
+                  <label for="account-type" class="form-label">Account Type</label>
+                  <div class="input-group">
+                     <select id="account-type" class="form-select">
+                        <option value="">–– Select the type ––</option>
+                        <option value="Basic">Basic</option>
+                        <option value="Premium">Premium</option>
+                     </select>
+                     <img src="./img/polygon.svg" alt="Arrow">
+                  </div>
+               </div>
+               <!-- Button Log in -->
+               <button type="submit" class="btn btn-login">Sign In</button>
+               <!-- Link to create new account -->
+               <p class="new-account"><a href="#" class="create">Create New Account</a></p>
+            </form>
+         </div>
+      </div>
+
+      <div class="right">
+         <div class="content">
+            <img src="./img/illustration.svg" class="illustration" alt="Illustration">
+            <h2>Simple is Key</h2>
+            <p>Generate business model with no hustle and headache</p>
+            <!-- indicators -->
+            <div class="indicators">
+               <span class="indicator"></span>
+               <span class="indicator active"></span>
+               <span class="indicator"></span>
+               <span class="indicator"></span>
+            </div>
+         </div>
+      </div>
+   </section>
+
+</body>
+
+</html>
