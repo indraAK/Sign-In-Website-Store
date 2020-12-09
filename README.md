@@ -1,5 +1,5 @@
 # Sign-In-Website-Store
-Implementasi / slicing desain Sign In Website Store menggunakan murni HTML & CSS, tanpa framework CSS
+Implementasi / slicing desain Sign In Website Store dalam bentuk tampilan web yang responsive menggunakan HTML & CSS, tanpa framework CSS
 
 Design Resources by [Pixel BWA / BuildWithAngga](https://pixel.buildwithangga.com/home)
 
